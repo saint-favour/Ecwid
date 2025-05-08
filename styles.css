@@ -12,15 +12,19 @@ body {
 p {
   font-family: Archivo;
   font-weight: 600;
+  font-size: large;
 }
 
 a {
   text-decoration: none;
-  color: black;
 }
 
 .top-navbar ul a:hover {
   transform: scale(1.1);
+}
+
+.top-navbar ul a{
+  color: black;
 }
 
 p {
@@ -450,7 +454,11 @@ h4 {
   transition: 0.5s ease-in;
 }
 
-.design:hover {
+.design a {
+color: black;
+}
+
+.design a:hover {
   word-spacing: 0.2rem;
   color: #fae054;
   transition: 0.5s ease-out;
@@ -518,11 +526,12 @@ footer {
   color: gray;
 }
 
-.grid-container ul li {
+.grid-container ul li a{
   padding: 0px 0;
+  color: white;
 }
 
-.grid-container ul li:hover {
+.grid-container ul li a:hover {
   color: gray;
   cursor: pointer;
 }
