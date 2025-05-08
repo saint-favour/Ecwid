@@ -595,8 +595,9 @@ input:focus {
   cursor: pointer;
 }
 
-.Copyrights ul li {
+.Copyrights ul li  a{
   font-size: small;
+  color: white;
 }
 
 .Copyrights ul li:last-child {
