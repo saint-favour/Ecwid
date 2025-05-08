@@ -550,6 +550,7 @@ footer {
 
 .social-icons li i:hover {
   cursor: pointer;
+  transform: rotate(30deg);
 }
 
 input {
