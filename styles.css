@@ -23,7 +23,7 @@ a {
   transform: scale(1.1);
 }
 
-.top-navbar ul a{
+.top-navbar ul a {
   color: black;
 }
 
@@ -458,7 +458,7 @@ h4 {
 }
 
 .design a {
-color: black;
+  color: black;
 }
 
 .design a:hover {
@@ -529,7 +529,7 @@ footer {
   color: gray;
 }
 
-.grid-container ul li a{
+.grid-container ul li a {
   padding: 0px 0;
   color: white;
 }
@@ -598,7 +598,7 @@ input:focus {
   cursor: pointer;
 }
 
-.Copyrights ul li  a{
+.Copyrights ul li a {
   font-size: small;
   color: white;
 }
