@@ -644,7 +644,7 @@ input:focus {
 
   .top-navbar.active {
     position: absolute;
-    top: -14%;
+    top: -20%;
     left: 50%;
     transform: translate(-50%, 50%);
     width: 100%;
@@ -654,12 +654,12 @@ input:focus {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     z-index: 1;
   }
 
   .one {
     display: block;
-    text-align: center;
   }
 
   .one a li {
@@ -674,7 +674,6 @@ input:focus {
 
   .two {
     display: block;
-    text-align: center;
   }
 
   .two a li {
