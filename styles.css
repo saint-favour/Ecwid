@@ -7,6 +7,7 @@ body {
   font-family: poppins;
   max-width: 1900px;
   margin-inline: auto;
+  padding-inline: 2rem;
 }
 
 p {
@@ -622,6 +623,14 @@ input:focus {
 }
 
 @media screen and (max-width: 779px) {
+
+  body {
+    font-family: poppins;
+    max-width: 1900px;
+    margin-inline: auto;
+    padding-inline: 1.5rem;
+  }
+
   .top-navbar {
     display: none;
   }
@@ -629,22 +638,23 @@ input:focus {
   .ham-menu {
     display: block;
     width: 2rem;
-    padding: 2rem;
+    padding: 2rem;  
     cursor: pointer;
   }
 
   .top-navbar.active {
     position: absolute;
-    top: 14%;
-    left: 5%;
-    transform: translate(-50% 50%);
+    top: -14%;
+    left: 50%;
+    transform: translate(-50%, 50%);
     width: 100%;
     min-height: 27rem;
     background-color: #032330;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    z-index: 100;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
   }
 
   .one {
@@ -652,17 +662,14 @@ input:focus {
     text-align: center;
   }
 
-  .one a {
-    padding: 1rem;
+  .one a li {
+    padding: 0.4rem;
     color: white;
+    font-weight: 600;
   }
 
-  .one li:hover {
-    transform: scale();
-    -webkit-transform: scale();
-    -moz-transform: scale();
-    -ms-transform: scale();
-    -o-transform: scale();
+  .one a li:hover {
+    transform: scale(1.1);
   }
 
   .two {
@@ -670,9 +677,14 @@ input:focus {
     text-align: center;
   }
 
-  .two a {
-    padding: 1rem;
+  .two a li {
+    padding: 0.5rem;
     color: white;
+    font-weight: 600;
+  }
+
+  .two a li:hover {
+    transform: scale(1.1);
   }
 
   .btn1 {
@@ -761,6 +773,18 @@ input:focus {
 }
 
 @media screen and (max-width: 430px) {
+
+body {
+  font-family: poppins;
+  max-width: 1900px;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+  .top-navbar.active {
+    top: -18%;
+  }
+
   .grid-container {
     display: grid;
     grid-template-columns: 1fr;
