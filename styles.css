@@ -7,7 +7,7 @@ body {
   font-family: poppins;
   max-width: 1900px;
   margin-inline: auto;
-  padding-inline: 2rem;
+  
 }
 
 p {
@@ -33,6 +33,12 @@ p {
 }
 
 /* ////////////// ////////utility class /////////////////////// */
+/* all sections */
+header, main, footer{
+  padding-inline: 2rem;
+}
+
+
 
 /* buttons */
 .No-credit-btn {
@@ -45,6 +51,7 @@ p {
   min-height: 3rem;
   border-radius: 15px;
   cursor: pointer;
+  
 }
 
 .btn {
@@ -98,17 +105,7 @@ p {
 /* blog card1  */
 
 .card1 {
-  border: 1px solid black;
-  max-width: 73%;
-  margin-inline: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  gap: 2rem;
-  border-radius: 45px;
-  padding: 3rem 4rem 1rem 4rem;
   background-color: #ffc699;
-  position: relative;
 }
 
 .img2 {
@@ -128,6 +125,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .profile-1 {
@@ -332,6 +330,7 @@ h5 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   flex-direction: row-reverse;
 }
 
@@ -477,7 +476,7 @@ h4 {
   margin-top: 5rem;
   margin-inline: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
@@ -489,6 +488,7 @@ h4 {
   font-size: 2.5rem;
   font-weight: bolder;
 }
+
 
 .btn6 {
   background-color: #fae054;
@@ -624,10 +624,7 @@ input:focus {
 
 @media screen and (max-width: 779px) {
 
-  body {
-    font-family: poppins;
-    max-width: 1900px;
-    margin-inline: auto;
+  header, main, footer {
     padding-inline: 1.5rem;
   }
 
@@ -766,6 +763,10 @@ input:focus {
       "item-7 item-7";
   }
 
+  header, main, footer {
+    padding-inline: 2rem;
+  }
+
   .logo-text {
     justify-self: center;
   }
@@ -773,11 +774,8 @@ input:focus {
 
 @media screen and (max-width: 430px) {
 
-body {
-  font-family: poppins;
-  max-width: 1900px;
-  margin-inline: auto;
-  padding-inline: 1rem;
+header, main, footer {
+  padding-inline: 2rem;
 }
 
   .top-navbar.active {
@@ -816,6 +814,16 @@ body {
     flex-direction: column;
     margin-top: 2rem;
   }
+
+  .No-credit-btn {
+    transition: all 1s ease-out;
+    width: 10rem;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+}
+
   .logo-text {
     justify-self: center;
   }
