@@ -149,6 +149,7 @@ header, main, footer{
   align-content: center;
   margin: 1.5rem auto 4rem;
   max-width: 90%;
+  
 }
 
 .brand-image {
@@ -649,14 +650,19 @@ input:focus {
     background-color: #032330;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     text-align: center;
     z-index: 1;
   }
 
   .one {
-    display: block;
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0;
   }
 
   .one a li {
@@ -670,7 +676,12 @@ input:focus {
   }
 
   .two {
-    display: block;
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0;
   }
 
   .two a li {
